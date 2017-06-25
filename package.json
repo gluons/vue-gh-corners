@@ -1,0 +1,41 @@
+{
+  "name": "vue-gh-corners",
+  "version": "1.0.0",
+  "description": "GitHub Corners for Vue.",
+  "main": "./dist/vue-github-corners.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "poi build",
+    "dev": "poi --config ./poi.dev.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gluons/vue-gh-corners.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "vue-component",
+    "github",
+    "corners"
+  ],
+  "author": "Saran Tanpituckpong <sarunta@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gluons/vue-gh-corners/issues"
+  },
+  "homepage": "https://github.com/gluons/vue-gh-corners",
+  "peerDependencies": {
+    "vue": "2"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.0",
+    "eslint-config-gluons": "^2.0.2",
+    "eslint-plugin-vue": "^2.1.0",
+    "poi": "^9.0.4",
+    "vue": "2"
+  }
+}
