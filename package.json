@@ -9,6 +9,7 @@
   "scripts": {
     "build": "poi build",
     "dev": "poi --config ./poi.dev.config.js",
+    "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
