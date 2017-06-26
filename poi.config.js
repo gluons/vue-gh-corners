@@ -11,5 +11,6 @@ module.exports = {
 		]
 	},
 	html: false,
+	minimize: false,
 	removeDist: true
 };

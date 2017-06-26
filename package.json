@@ -3,11 +3,14 @@
   "version": "1.0.1",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.js",
+  "style": "./dist/vue-github-corners.css",
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "poi build --format umd --module-name VueGitHubCorners",
+    "build:unmin": "poi build --format umd --module-name VueGitHubCorners",
+    "build:min": "poi build --config ./poi.min.config.js --format umd --module-name VueGitHubCorners",
+    "build": "npm run build:unmin && npm run build:min",
     "dev": "poi --config ./poi.dev.config.js",
     "prepublishOnly": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
