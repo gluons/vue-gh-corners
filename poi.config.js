@@ -12,5 +12,14 @@ module.exports = {
 	},
 	html: false,
 	minimize: false,
-	removeDist: true
+	removeDist: true,
+	presets: [
+		require('poi-preset-karma')({
+			frameworks: ['mocha', 'chai'],
+			browsers: [
+				process.env.CI ? 'Firefox' : 'FirefoxDeveloper'
+			],
+			files: ['test/**/*.js']
+		})
+	]
 };

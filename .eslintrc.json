@@ -1,3 +1,6 @@
 {
-	"extends": "gluons/vue"
+	"extends": "gluons/vue",
+	"env": {
+		"mocha": true
+	}
 }
