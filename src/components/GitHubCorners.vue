@@ -10,10 +10,12 @@
 </template>
 
 <script>
+const GITHUB_BASE_URL = 'https://github.com';
+
 export default {
 	name: 'github-corners',
 	props: {
-		url: {
+		repo: {
 			type: String,
 			required: true
 		},
@@ -38,6 +40,9 @@ export default {
 		}
 	},
 	computed: {
+		url() {
+			return `${GITHUB_BASE_URL}/${this.repo}`;
+		},
 		svgStyle() {
 			let positionStyles = {};
 			if (this.position === 'left') {

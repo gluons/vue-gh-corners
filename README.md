@@ -39,7 +39,7 @@ Vue.use(VueGitHubCorners);
 ```vue
 <template>
 	<div id="app">
-		<github-corners url="https://github.com/gluons/vue-gh-corners"></github-corners>
+		<github-corners repo="gluons/vue-gh-corners"></github-corners>
 	</div>
 </template>
 ```
@@ -48,11 +48,11 @@ Vue.use(VueGitHubCorners);
 
 ### Props
 
-#### url
+#### repo
 **Type:** `String`  
 **Required:** `true`
 
-A url to your GitHub repository.
+GitHub repository slug (`username/repo`).
 
 #### blank
 **Type:** `Boolean`  

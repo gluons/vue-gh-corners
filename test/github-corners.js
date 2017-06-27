@@ -2,23 +2,22 @@ import Vue from 'vue';
 import GitHubCorners from '@/components/GitHubCorners.vue';
 import { expect } from 'chai';
 
+const GITHUB_BASE_URL = 'https://github.com';
+
 const Ctor = Vue.extend(GitHubCorners);
 const defaultBgColor = '#151513';
 const defaultColor = '#fff';
 
 describe('GitHubCorners', () => {
-	let url = 'https://github.com/gluons/vue-gh-corners';
+	let repo = 'gluons/vue-gh-corners';
 	let vm = new Ctor({
 		propsData: {
-			url,
+			repo,
 			position: 'left',
 			blank: false
 		}
 	}).$mount();
 
-	it('should have expected url', () => {
-		expect(vm.$props.url).to.be.equal(url);
-	});
 	it('should have default background color', () => {
 		expect(vm.$props.bgColor).to.equal(defaultBgColor);
 	});
@@ -27,6 +26,9 @@ describe('GitHubCorners', () => {
 	});
 	it('should have left position', () => {
 		expect(vm.$props.position).to.equal('left');
+	});
+	it('should have expected `url` computed value', () => {
+		expect(vm.url).to.be.equal(`${GITHUB_BASE_URL}/${repo}`);
 	});
 	it('should have expected `blankAttr` computed value', () => {
 		expect(vm.blankAttr).to.be.null;

@@ -1,6 +1,6 @@
 <template>
 	<div id="home">
-		<github-corners url="https://github.com" :bg-color="currentBgColor" :color="currentColor" :position="position"></github-corners>
+		<github-corners repo="gluons/vue-gh-corners" :bg-color="currentBgColor" :color="currentColor" :position="position"></github-corners>
 		<div id="custom">
 			<button type="button" @click="swapPosition">Swap Position</button>
 			<button type="button" @click="swapColor">Swap Color</button>
