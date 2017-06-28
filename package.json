@@ -1,6 +1,6 @@
 {
   "name": "vue-gh-corners",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.js",
   "style": "./dist/vue-github-corners.css",
