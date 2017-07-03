@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.js",
+  "unpkg": "./dist/vue-github-corners.min.js",
   "style": "./dist/vue-github-corners.css",
   "files": [
     "dist"
