@@ -26,6 +26,10 @@ Via [Yarn](https://yarnpkg.com/):
 yarn add vue-gh-corners
 ```
 
+## Demo
+
+Go to https://gluons.github.io/vue-gh-corners/
+
 ## Usage
 
 ```javascript
