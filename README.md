@@ -1,6 +1,6 @@
-# vue-gh-corners-docs
+# Vue GitHub Corners docs
 
-> A Vue.js project
+> Vue GitHub Corners documentation.
 
 ## Build Setup
 

@@ -1,7 +1,7 @@
 {
   "name": "vue-gh-corners-docs",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Vue GitHub Corners documentation.",
   "author": "Saran Tanpituckpong <sarunta@gmail.com>",
   "private": true,
   "scripts": {
