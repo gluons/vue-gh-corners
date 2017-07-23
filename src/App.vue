@@ -1,28 +1,16 @@
-<template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <hello></hello>
-  </div>
+<template lang="pug">
+#app
+	github-corners(repo='gluons/vue-gh-corners')
+	home
 </template>
 
 <script>
-import Hello from './components/Hello'
+import Home from './views/Home';
 
 export default {
-  name: 'app',
-  components: {
-    Hello
-  }
-}
+	name: 'app',
+	components: {
+		Home
+	}
+};
 </script>
-
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
