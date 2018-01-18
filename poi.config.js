@@ -17,7 +17,7 @@ module.exports = {
 		require('poi-preset-karma')({
 			frameworks: ['mocha', 'chai'],
 			browsers: [
-				process.env.CI ? 'Firefox' : 'FirefoxDeveloper'
+				process.env.CI ? 'FirefoxHeadless' : 'FirefoxNightlyHeadless'
 			],
 			files: ['test/**/*.js']
 		})
