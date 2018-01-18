@@ -14,6 +14,7 @@
     "build": "npm run build:unmin && npm run build:min",
     "dev": "poi --config ./poi.dev.config.js",
     "prepublishOnly": "npm run build",
+    "lint": "eslint --ext .js,.vue .",
     "test": "poi test"
   },
   "repository": {
@@ -38,9 +39,9 @@
   },
   "devDependencies": {
     "chai": "*",
-    "eslint": "^4.1.0",
-    "eslint-config-gluons": "^2.0.2",
-    "eslint-plugin-vue": "^2.1.0",
+    "eslint": "^4.15.0",
+    "eslint-config-gluons": "^2.1.0",
+    "eslint-plugin-vue": "2",
     "karma-chai": "^0.1.0",
     "karma-firefox-launcher": "^1.0.1",
     "karma-mocha": "^1.3.0",
