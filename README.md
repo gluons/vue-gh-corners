@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/v/vue-gh-corners.svg?style=flat-square)](https://www.npmjs.com/package/vue-gh-corners)
 [![npm](https://img.shields.io/npm/dt/vue-gh-corners.svg?style=flat-square)](https://www.npmjs.com/package/vue-gh-corners)
 [![Travis](https://img.shields.io/travis/gluons/vue-gh-corners.svg?style=flat-square)](https://travis-ci.org/gluons/vue-gh-corners)
-[![Dependency Status](https://dependencyci.com/github/gluons/vue-gh-corners/badge?style=flat-square)](https://dependencyci.com/github/gluons/vue-gh-corners)
+[![Gemnasium](https://img.shields.io/gemnasium/gluons/vue-gh-corners.svg?style=flat-square)](https://gemnasium.com/github.com/gluons/vue-gh-corners)
 [![ESLint Gluons](https://img.shields.io/badge/code%20style-gluons-9C27B0.svg?style=flat-square)](https://github.com/gluons/eslint-config-gluons)
 [![Gitmoji](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
