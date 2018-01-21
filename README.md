@@ -98,4 +98,4 @@ The position of corner.
 
 ---
 
-**Use [Poi](https://github.com/egoist/poi) — ⚡ Delightful web development.**
+**Use [Bili](https://github.com/egoist/bili) — 🥂 Delightful library bundler.**

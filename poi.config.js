@@ -1,18 +1,9 @@
 module.exports = {
-	entry: './src/index.js',
-	filename: {
-		js: 'vue-github-corners.js',
-		css: 'vue-github-corners.css'
+	entry: './dev/main.js',
+	html: {
+		title: 'GitHub Corners',
+		description: 'GitHub Corners for Vue.'
 	},
-	autoprefixer: {
-		browsers: [
-			'ie > 8',
-			'last 3 versions'
-		]
-	},
-	html: false,
-	minimize: false,
-	removeDist: true,
 	presets: [
 		require('poi-preset-karma')({
 			frameworks: ['mocha', 'chai'],
