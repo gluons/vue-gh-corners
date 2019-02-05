@@ -1,12 +1,13 @@
 {
   "name": "vue-gh-corners",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.cjs.js",
   "module": "./dist/vue-github-corners.esm.mjs",
   "unpkg": "./dist/vue-github-corners.iife.min.js",
   "jsdelivr": "./dist/vue-github-corners.iife.min.js",
   "style": "./dist/vue-github-corners.iife.min.css",
+  "typings": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
