@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.cjs.js",
-  "module": "./dist/vue-github-corners.m.js",
+  "module": "./dist/vue-github-corners.esm.mjs",
   "unpkg": "./dist/vue-github-corners.iife.min.js",
   "jsdelivr": "./dist/vue-github-corners.iife.min.js",
   "style": "./dist/vue-github-corners.iife.min.css",
@@ -11,7 +11,7 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "rimraf dist/**",
+    "prebuild": "rimraf dist/",
     "build": "bili",
     "dev": "poi",
     "prepublishOnly": "npm run build",
@@ -52,13 +52,16 @@
     "mocha": "5.2.0",
     "poi": "^12.5.5",
     "poi-preset-karma": "^9.0.0",
+    "postcss": "^7.0.14",
     "postcss-csso": "^3.0.0",
     "rimraf": "^2.6.3",
-    "rollup-plugin-vue": "^4.6.2",
+    "rollup-plugin-typescript2": "^0.19.2",
+    "rollup-plugin-vue": "^4.7.1",
     "tsconfig-gluons": "^1.0.1",
     "tslint": "^5.12.1",
     "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.3.1",
-    "vue": "2.5.22"
+    "vue": "2.6.2",
+    "vue-template-compiler": "^2.6.2"
   }
 }
