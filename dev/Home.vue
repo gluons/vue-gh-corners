@@ -9,8 +9,10 @@
 	</div>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
 	name: 'home',
 	data() {
 		return {
@@ -28,7 +30,8 @@ export default {
 	methods: {
 		updatePageBg() {
 			if (this.isSwapColor) {
-				let currentBgColor = this.colors[this.currentColorIndex];
+				const currentBgColor = this.colors[this.currentColorIndex];
+
 				document.body.style.setProperty('background-color', currentBgColor);
 			} else {
 				document.body.style.removeProperty('background-color');
@@ -66,7 +69,7 @@ export default {
 			}
 		}
 	}
-};
+});
 </script>
 
 <style>

@@ -1,6 +1,0 @@
-{
-	"extends": "gluons/vue",
-	"env": {
-		"mocha": true
-	}
-}

@@ -1,5 +1,8 @@
+/// <reference path='../src/sfc.d.ts' />
+
 import Vue from 'vue';
-import VueGitHubCorners from '@/index.js';
+
+import VueGitHubCorners from '../src';
 import Home from './Home.vue';
 
 Vue.use(VueGitHubCorners);

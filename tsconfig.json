@@ -1,0 +1,15 @@
+{
+	"extends": "tsconfig-gluons",
+	"compilerOptions": {
+		"module": "es2015",
+		"lib": [
+			"dom",
+			"es2015"
+		],
+		"experimentalDecorators": true,
+		"outDir": "dist"
+	},
+	"include": [
+		"src"
+	]
+}
