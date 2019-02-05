@@ -30,7 +30,8 @@ export default Vue.extend({
 	methods: {
 		updatePageBg() {
 			if (this.isSwapColor) {
-				let currentBgColor = this.colors[this.currentColorIndex];
+				const currentBgColor = this.colors[this.currentColorIndex];
+
 				document.body.style.setProperty('background-color', currentBgColor);
 			} else {
 				document.body.style.removeProperty('background-color');

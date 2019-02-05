@@ -47,6 +47,7 @@ export default Vue.extend({
 		},
 		svgStyle() {
 			let positionStyles = {};
+
 			if (this.position === 'left') {
 				positionStyles = {
 					left: 0,
