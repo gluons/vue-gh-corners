@@ -16,7 +16,7 @@
     "dev": "poi --serve",
     "prepublishOnly": "npm run build",
     "lint": "tslint -p .",
-    "test": "cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} karma start"
+    "test": "npm run lint && cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} karma start"
   },
   "repository": {
     "type": "git",
