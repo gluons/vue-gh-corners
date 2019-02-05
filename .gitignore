@@ -128,3 +128,6 @@ $RECYCLE.BIN/
 
 # Dist files
 dist/
+
+# rollup-plugin-typescript2 cache
+.rpt2_cache/
