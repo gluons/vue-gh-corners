@@ -9,11 +9,13 @@
 	</a>
 </template>
 
-<script>
+<script lang="ts">
+import Vue from 'vue';
+
 const GITHUB_BASE_URL = 'https://github.com';
 
-export default {
-	name: 'github-corners',
+export default Vue.extend({
+	name: 'GitHubCorners',
 	props: {
 		repo: {
 			type: String,
@@ -72,7 +74,7 @@ export default {
 			return this.blank ? 'noopener noreferrer' : null;
 		}
 	}
-};
+});
 </script>
 
 <style>
