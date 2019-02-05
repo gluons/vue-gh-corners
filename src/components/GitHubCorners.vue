@@ -49,21 +49,21 @@ export default Vue.extend({
 			let positionStyles = {};
 			if (this.position === 'left') {
 				positionStyles = {
-					'left': 0,
-					'transform': 'scale(-1, 1)'
+					left: 0,
+					transform: 'scale(-1, 1)'
 				};
 			} else {
 				positionStyles = {
-					'right': 0
+					right: 0
 				};
 			}
 
 			return {
-				'fill': this.bgColor,
-				'color': this.color,
-				'position': 'absolute',
-				'border': 0,
-				'top': 0,
+				fill: this.bgColor,
+				color: this.color,
+				position: 'absolute',
+				border: 0,
+				top: 0,
 				...positionStyles
 			};
 		},
