@@ -78,5 +78,8 @@
     "vue-loader": "^15.6.2",
     "vue-template-compiler": "^2.6.2",
     "webpack": "^4.29.1"
+  },
+  "dependencies": {
+    "tslib": "^1.9.3"
   }
 }
