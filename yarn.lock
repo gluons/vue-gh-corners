@@ -7774,7 +7774,7 @@ vue-loader@^15.4.2, vue-loader@^15.7.0:
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
 
-vue-runtime-helpers@1.0.0:
+vue-runtime-helpers@1.0.0, vue-runtime-helpers@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/vue-runtime-helpers/-/vue-runtime-helpers-1.0.0.tgz#af5fe1c8d727beb680b2eb9d791c8e022342e54d"
   integrity sha512-DgwCNgIXkq1GJsWwtFOjA/K2nxpjyon/QqAut0EiwrMHBatAPbfdqksDdRoK15b5YrSJRa59rx3pc0L6V4udUA==

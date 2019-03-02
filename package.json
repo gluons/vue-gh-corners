@@ -81,6 +81,7 @@
     "webpack": "^4.29.6"
   },
   "dependencies": {
-    "tslib": "^1.9.3"
+    "tslib": "^1.9.3",
+    "vue-runtime-helpers": "^1.0.0"
   }
 }
