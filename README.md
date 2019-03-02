@@ -36,7 +36,7 @@ import Vue from 'vue';
 import VueGitHubCorners from 'vue-gh-corners';
 
 // Import GitHub Corners stylesheet.
-import 'vue-gh-corners/dist/vue-github-corners.css';
+import 'vue-gh-corners/dist/vue-github-corners.iife.css';
 
 Vue.use(VueGitHubCorners);
 ```
