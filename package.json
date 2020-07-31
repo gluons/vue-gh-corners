@@ -62,7 +62,7 @@
     "karma-jasmine-html-reporter": "^1.4.0",
     "karma-sourcemap-loader": "^0.3.7",
     "karma-spec-reporter": "^0.0.32",
-    "karma-webpack": "^3.0.5",
+    "karma-webpack": "^4.0.2",
     "poi": "^12.5.5",
     "postcss": "^7.0.14",
     "rimraf": "^2.6.3",
