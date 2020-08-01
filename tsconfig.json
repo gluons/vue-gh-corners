@@ -1,13 +1,16 @@
 {
 	"extends": "tsconfig-gluons",
 	"compilerOptions": {
-		"module": "es2015",
+		"module": "ESNext",
 		"lib": [
 			"dom",
-			"es2015"
+			"ESNext"
 		],
+		"esModuleInterop": true,
 		"experimentalDecorators": true,
-		"outDir": "dist"
+		"outDir": "dist",
+		"sourceMap": true,
+		"declaration": true
 	},
 	"include": [
 		"src"
