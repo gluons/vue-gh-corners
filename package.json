@@ -54,7 +54,7 @@
     "bili": "^4.4.0",
     "browserslist-config-vue": "^1.0.3",
     "cross-env": "^5.2.0",
-    "css-loader": "^2.1.0",
+    "css-loader": "^4.2.0",
     "jasmine-core": "^3.3.0",
     "karma": "^4.0.1",
     "karma-firefox-launcher": "^1.1.0",
