@@ -65,7 +65,7 @@
     "karma-webpack": "^4.0.2",
     "poi": "^12.5.5",
     "postcss": "^7.0.14",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
     "rollup-plugin-typescript2": "^0.19.3",
     "rollup-plugin-vue": "^4.7.2",
