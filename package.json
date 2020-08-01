@@ -47,7 +47,7 @@
     "@types/jasmine": "^3.3.9",
     "@types/karma": "^3.0.2",
     "@types/karma-webpack": "^2.0.6",
-    "@types/node": "8",
+    "@types/node": "12",
     "@types/webpack": "^4.4.25",
     "@vue/component-compiler-utils": "^3.2.0",
     "@vue/test-utils": "^1.0.0-beta.29",

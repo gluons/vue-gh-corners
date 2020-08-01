@@ -5,7 +5,7 @@ devDependencies:
   '@types/jasmine': 3.5.12
   '@types/karma': 3.0.9
   '@types/karma-webpack': 2.0.7
-  '@types/node': 8.10.62
+  '@types/node': 12.12.53
   '@types/webpack': 4.41.21
   '@vue/component-compiler-utils': 3.2.0
   '@vue/test-utils': 1.0.3_d81dac297579cfd5597855dabf60f13b
@@ -1323,6 +1323,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-aaI6OtKcrwCX8G7aWbNh7i8GOfY=
+  /@types/node/12.12.53:
+    dev: true
+    resolution:
+      integrity: sha512-51MYTDTyCziHb70wtGNFRwB4l+5JNvdqzFSkbDvpbftEgVUBEE+T5f7pROhWMp/fxp07oNIEQZd5bbfAH22ohQ==
   /@types/node/8.10.62:
     dev: true
     resolution:
@@ -8957,7 +8961,7 @@ specifiers:
   '@types/jasmine': ^3.3.9
   '@types/karma': ^3.0.2
   '@types/karma-webpack': ^2.0.6
-  '@types/node': '8'
+  '@types/node': '12'
   '@types/webpack': ^4.4.25
   '@vue/component-compiler-utils': ^3.2.0
   '@vue/test-utils': ^1.0.0-beta.29
