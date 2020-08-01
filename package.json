@@ -51,7 +51,7 @@
     "@types/webpack": "^4.4.25",
     "@vue/test-utils": "^1.0.0-beta.29",
     "autoprefixer": "^9.4.9",
-    "bili": "^4.4.0",
+    "bili": "^5.0.5",
     "browserslist-config-vue": "^1.0.3",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
@@ -65,23 +65,23 @@
     "karma-webpack": "^4.0.2",
     "poi": "^12.5.5",
     "postcss": "^7.0.14",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
-    "rollup-plugin-typescript2": "^0.19.3",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup-plugin-typescript2": "^0.27.1",
+    "rollup-plugin-vue": "5",
     "ts-loader": "^5.3.3",
     "ts-node": "^8.0.2",
     "tsconfig-gluons": "^1.0.1",
     "tslint": "^5.13.1",
     "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.3.3333",
-    "vue": "2.6.8",
+    "vue": "2.6.11",
     "vue-loader": "^15.7.0",
-    "vue-template-compiler": "^2.6.8",
+    "vue-template-compiler": "^2.6.11",
     "webpack": "^4.29.6"
   },
   "dependencies": {
-    "tslib": "^1.9.3",
-    "vue-runtime-helpers": "^1.0.0"
+    "tslib": "^2.0.0",
+    "vue-runtime-helpers": "^1.1.2"
   }
 }
