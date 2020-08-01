@@ -12,8 +12,9 @@
     "dist"
   ],
   "scripts": {
-    "prebuild": "rimraf dist/",
+    "prebuild": "del-cli dist/",
     "build": "bili",
+    "predev": "del-cli dev-dist/",
     "dev": "parcel index.html -d dev-dist/ --open --no-autoinstall",
     "prepublishOnly": "npm run build",
     "lint": "tslint -p .",
@@ -55,6 +56,7 @@
     "browserslist-config-vue": "^1.0.3",
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
+    "del-cli": "^3.0.1",
     "jasmine-core": "^3.3.0",
     "karma": "^4.0.1",
     "karma-firefox-launcher": "^1.1.0",
@@ -65,7 +67,6 @@
     "karma-webpack": "^4.0.2",
     "parcel-bundler": "^1.12.4",
     "postcss": "^7.0.14",
-    "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "rollup-plugin-vue": "5",
