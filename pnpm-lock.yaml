@@ -2,26 +2,33 @@ dependencies:
   tslib: 2.0.0
   vue-runtime-helpers: 1.1.2
 devDependencies:
+  '@babel/core': 7.11.0
+  '@babel/preset-env': 7.11.0_@babel+core@7.11.0
+  '@babel/preset-typescript': 7.10.4_@babel+core@7.11.0
   '@types/jest': 26.0.8
   '@types/node': 12.12.53
   '@vue/test-utils': 1.0.3_d81dac297579cfd5597855dabf60f13b
   autoprefixer: 9.8.6
+  babel-core: 7.0.0-bridge.0_@babel+core@7.11.0
+  babel-jest: 26.2.2_@babel+core@7.11.0
   bili: 5.0.5
   browserslist-config-vue: 1.0.3
-  cross-env: 5.2.1
+  cross-env: 7.0.2
   del-cli: 3.0.1
   jest: 26.2.2
+  jest-config: 26.2.2
   parcel-bundler: 1.12.4
+  postcss: 7.0.32
   rollup: 2.23.0
   rollup-plugin-typescript2: 0.27.1_rollup@2.23.0+typescript@3.9.7
-  rollup-plugin-vue: 5.1.9_vue-template-compiler@2.6.11
+  rollup-plugin-vue: 5.1.9_14b256064cdd10125fc434f33327847b
   tsconfig-gluons: 1.0.1_typescript@3.9.7
   tslint: 5.20.1_typescript@3.9.7
   tslint-config-gluons: 2.2.0_tslint@5.20.1
   typescript: 3.9.7
   vue: 2.6.11
   vue-hot-reload-api: 2.3.4
-  vue-jest: 3.0.6_d81dac297579cfd5597855dabf60f13b
+  vue-jest: 3.0.6_64ba5b21466dd6d31604ca8f3ce0789b
   vue-template-compiler: 2.6.11
 lockfileVersion: 5.1
 packages:
@@ -1644,11 +1651,12 @@ packages:
       prettier: 1.19.1
     resolution:
       integrity: sha512-lejBLa7xAMsfiZfNp7Kv51zOzifnb29FwdnMLa96z26kXErPFioSf9BMcePVIQ6/Gc6/mC0UrPpxAWIHyae0vw==
-  /@vue/component-compiler/4.2.3_vue-template-compiler@2.6.11:
+  /@vue/component-compiler/4.2.3_14b256064cdd10125fc434f33327847b:
     dependencies:
       '@vue/component-compiler-utils': 3.2.0
       clean-css: 4.2.3
       hash-sum: 1.0.2
+      postcss: 7.0.32
       postcss-modules-sync: 1.0.0
       source-map: 0.6.1
       vue-template-compiler: 2.6.11
@@ -2000,6 +2008,14 @@ packages:
     dev: true
     resolution:
       integrity: sha1-Y/1D99weO7fONZR9uP42mj9Yx0s=
+  /babel-core/7.0.0-bridge.0_@babel+core@7.11.0:
+    dependencies:
+      '@babel/core': 7.11.0
+    dev: true
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    resolution:
+      integrity: sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
   /babel-jest/26.2.2_@babel+core@7.11.0:
     dependencies:
       '@babel/core': 7.11.0
@@ -2969,15 +2985,17 @@ packages:
     dev: true
     resolution:
       integrity: sha512-MJG9liiZ+ogc4TzUwuvbER1JRdgvUFSB5+VR/g5h82fGaIRWMWddtKBHi7/sVhfjQZ6SehlyhvQYrcYkaUIpLg==
-  /cross-env/5.2.1:
+  /cross-env/7.0.2:
     dependencies:
-      cross-spawn: 6.0.5
+      cross-spawn: 7.0.3
     dev: true
     engines:
-      node: '>=4.0'
+      node: '>=10.14'
+      npm: '>=6'
+      yarn: '>=1'
     hasBin: true
     resolution:
-      integrity: sha512-1yHhtcfAd1r4nwQgknowuUNfIT9E8dOMMspC36g45dN+iD1blloi7xp8X/xAIDnjHWyt1uQ8PHk2fkNaym7soQ==
+      integrity: sha512-KZP/bMEOJEDCkDQAyRhu3RL2ZO/SUVrxQVI0G3YEQ+OLbRA3c6zgixe8Mq8a/z7+HKlNEjo8oiLUs8iRijY2Rw==
   /cross-spawn/6.0.5:
     dependencies:
       nice-try: 1.0.5
@@ -7823,9 +7841,9 @@ packages:
       typescript: '>=2.4.0'
     resolution:
       integrity: sha512-RJl77Bbj1EunAQDC3dK/O2HWuSUX3oJbRGzyLoS5o9W4Hs1Nix3Gavqj1Lzs5Y6Ff4H2xXfmZ1WWUQCYocSbzQ==
-  /rollup-plugin-vue/5.1.9_vue-template-compiler@2.6.11:
+  /rollup-plugin-vue/5.1.9_14b256064cdd10125fc434f33327847b:
     dependencies:
-      '@vue/component-compiler': 4.2.3_vue-template-compiler@2.6.11
+      '@vue/component-compiler': 4.2.3_14b256064cdd10125fc434f33327847b
       '@vue/component-compiler-utils': 3.2.0
       debug: 4.1.1
       hash-sum: 1.0.2
@@ -7837,6 +7855,7 @@ packages:
       vue-template-compiler: 2.6.11
     dev: true
     peerDependencies:
+      postcss: '*'
       vue-template-compiler: '*'
     resolution:
       integrity: sha512-DXzrBUD2j68Y6nls4MmuJsFL1SrQDpdgjxvhk/oy04LzJmXJoX1x31yLEBFkkmvpbon6Q885WJLvEMiMyT+3rA==
@@ -9045,8 +9064,9 @@ packages:
     dev: true
     resolution:
       integrity: sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog==
-  /vue-jest/3.0.6_d81dac297579cfd5597855dabf60f13b:
+  /vue-jest/3.0.6_64ba5b21466dd6d31604ca8f3ce0789b:
     dependencies:
+      babel-core: 7.0.0-bridge.0_@babel+core@7.11.0
       babel-plugin-transform-es2015-modules-commonjs: 6.26.2
       chalk: 2.4.2
       deasync: 0.1.20
@@ -9320,16 +9340,23 @@ packages:
     resolution:
       integrity: sha1-9+572FfdfB0tOMDnTvvWgdFDH9E=
 specifiers:
+  '@babel/core': ^7.11.0
+  '@babel/preset-env': ^7.11.0
+  '@babel/preset-typescript': ^7.10.4
   '@types/jest': ^26.0.8
   '@types/node': '12'
   '@vue/test-utils': ^1.0.0-beta.29
   autoprefixer: ^9.4.9
+  babel-core: bridge
+  babel-jest: ^26.2.2
   bili: ^5.0.5
   browserslist-config-vue: ^1.0.3
-  cross-env: ^5.2.0
+  cross-env: ^7.0.2
   del-cli: ^3.0.1
   jest: ^26.2.2
+  jest-config: ^26.2.2
   parcel-bundler: ^1.12.4
+  postcss: ^7.0.32
   rollup: ^2.23.0
   rollup-plugin-typescript2: ^0.27.1
   rollup-plugin-vue: '5'

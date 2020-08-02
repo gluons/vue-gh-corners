@@ -18,7 +18,7 @@
     "dev": "parcel index.html -d dev-dist/ --open --no-autoinstall",
     "prepublishOnly": "npm run build",
     "lint": "tslint -p .",
-    "test": "npm run lint && cross-env TS_NODE_COMPILER_OPTIONS={\\\"module\\\":\\\"commonjs\\\"} karma start"
+    "test": "npm run lint && cross-env NODE_ENV=test jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -44,16 +44,23 @@
     "vue": "2"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
     "@types/jest": "^26.0.8",
     "@types/node": "12",
     "@vue/test-utils": "^1.0.0-beta.29",
     "autoprefixer": "^9.4.9",
+    "babel-core": "bridge",
+    "babel-jest": "^26.2.2",
     "bili": "^5.0.5",
     "browserslist-config-vue": "^1.0.3",
-    "cross-env": "^5.2.0",
+    "cross-env": "^7.0.2",
     "del-cli": "^3.0.1",
     "jest": "^26.2.2",
+    "jest-config": "^26.2.2",
     "parcel-bundler": "^1.12.4",
+    "postcss": "^7.0.32",
     "rollup": "^2.23.0",
     "rollup-plugin-typescript2": "^0.27.1",
     "rollup-plugin-vue": "5",
