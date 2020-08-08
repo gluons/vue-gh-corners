@@ -68,7 +68,7 @@
     "rimraf": "^3.0.2",
     "rollup": "^2.23.0",
     "rollup-plugin-typescript2": "^0.19.3",
-    "rollup-plugin-vue": "^4.7.2",
+    "rollup-plugin-vue": "^5.1.9",
     "ts-loader": "^5.3.3",
     "ts-node": "^8.0.2",
     "tsconfig-gluons": "^1.0.1",
