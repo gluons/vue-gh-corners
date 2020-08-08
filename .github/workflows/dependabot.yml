@@ -18,10 +18,5 @@ jobs:
     runs-on: ubuntu-latest
     if: github.actor == 'dependabot[bot]'
     steps:
-      - name: Wait for status checks
-        uses: WyriHaximus/github-action-wait-for-status@v1.0.0
-        with:
-          ignoreActions: automerge
       - name: Automerge
-        uses: pascalgn/automerge-action@v0.8.5
-        if: steps.waitforstatuschecks.outputs.status == 'success'
+        uses: pascalgn/automerge-action@v0.9.0
