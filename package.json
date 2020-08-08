@@ -17,8 +17,8 @@
     "predev": "del-cli dev-dist/",
     "dev": "parcel index.html -d dev-dist/ --open --no-autoinstall",
     "prepublishOnly": "npm run build",
-    "lint": "tslint -p .",
-    "test": "npm run lint && cross-env NODE_ENV=test jest --verbose"
+    "lint": "eslint .",
+    "test": "cross-env NODE_ENV=test jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -40,6 +40,7 @@
   "browserslist": [
     "extends browserslist-config-vue"
   ],
+  "prettier": "@gluons/prettier-config",
   "peerDependencies": {
     "vue": "2"
   },
@@ -47,8 +48,11 @@
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-typescript": "^7.10.4",
+    "@gluons/prettier-config": "^2.0.6",
     "@types/jest": "^26.0.9",
     "@types/node": "^12.12.54",
+    "@typescript-eslint/eslint-plugin": "^3.8.0",
+    "@typescript-eslint/parser": "^3.8.0",
     "@vue/component-compiler-utils": "^3.2.0",
     "@vue/test-utils": "^1.0.0-beta.29",
     "autoprefixer": "^9.4.9",
@@ -58,16 +62,17 @@
     "browserslist-config-vue": "^1.0.3",
     "cross-env": "^7.0.2",
     "del-cli": "^3.0.1",
+    "eslint": "^7.6.0",
+    "eslint-config-gluons": "^5.0.4",
     "jest": "^26.2.2",
     "jest-config": "^26.2.2",
     "parcel-bundler": "^1.12.4",
     "postcss": "^7.0.32",
+    "prettier": "^2.0.5",
     "rollup": "^2.23.1",
     "rollup-plugin-typescript2": "^0.27.2",
     "rollup-plugin-vue": "5",
     "tsconfig-gluons": "^1.0.1",
-    "tslint": "^6.1.3",
-    "tslint-config-gluons": "^2.1.0",
     "typescript": "^3.9.7",
     "vue": "2.6.11",
     "vue-hot-reload-api": "^2.3.4",
