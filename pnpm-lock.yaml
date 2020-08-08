@@ -7,6 +7,7 @@ devDependencies:
   '@babel/preset-typescript': 7.10.4_@babel+core@7.11.1
   '@types/jest': 26.0.9
   '@types/node': 12.12.54
+  '@vue/component-compiler-utils': 3.2.0
   '@vue/test-utils': 1.0.3_d81dac297579cfd5597855dabf60f13b
   autoprefixer: 9.8.6
   babel-core: 7.0.0-bridge.0_@babel+core@7.11.1
@@ -10194,6 +10195,7 @@ specifiers:
   '@babel/preset-typescript': ^7.10.4
   '@types/jest': ^26.0.9
   '@types/node': ^12.12.54
+  '@vue/component-compiler-utils': ^3.2.0
   '@vue/test-utils': ^1.0.0-beta.29
   autoprefixer: ^9.4.9
   babel-core: bridge
