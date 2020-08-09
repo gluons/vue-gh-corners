@@ -3,6 +3,14 @@
 import { shallowMount } from '@vue/test-utils';
 import GitHubCorners from '../src/components/GitHubCorners.vue';
 
+type GitHubCornersComputed = {
+	url: string;
+	blankAttr: string;
+	relAttr: string;
+	svgStyle: CSSStyleDeclaration;
+};
+type GitHubCornersWithComputed = GitHubCorners & GitHubCornersComputed;
+
 const GITHUB_BASE_URL = 'https://github.com';
 
 const defaultBgColor = '#151513';
@@ -10,14 +18,14 @@ const defaultColor = '#fff';
 
 describe('GitHubCorners', () => {
 	const repo = 'gluons/vue-gh-corners';
-	const wrapper = shallowMount(GitHubCorners, {
+	const wrapper = shallowMount<GitHubCornersWithComputed>(GitHubCorners, {
 		propsData: {
 			repo,
 			position: 'left',
 			blank: false
 		}
 	});
-	const vm = wrapper.vm as any;
+	const { vm } = wrapper;
 
 	it('should have default background color', () => {
 		expect(wrapper.props('bgColor')).toEqual(defaultBgColor);

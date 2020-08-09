@@ -1,11 +1,7 @@
 {
-	"extends": "tsconfig-gluons",
+	"extends": "tsconfig-gluons/browser",
 	"compilerOptions": {
-		"module": "es2015",
-		"lib": [
-			"dom",
-			"es2015"
-		],
+		"module": "ESNext",
 		"experimentalDecorators": true,
 		"outDir": "dist"
 	},
