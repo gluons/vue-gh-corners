@@ -1,3 +1,22 @@
 {
-	"extends": "gluons/vue-ts"
+	"extends": "gluons/esnext",
+	"overrides": [
+		{
+			"files": ["*.vue"],
+			"extends": "gluons/vue-ts",
+			"parserOptions": {
+				"project": "tsconfig-eslint.json"
+			}
+		},
+		{
+			"files": ["*.ts"],
+			"extends": "gluons/ts",
+			"parserOptions": {
+				"project": "tsconfig-eslint.json"
+			},
+			"rules": {
+				"@typescript-eslint/triple-slash-reference": "off"
+			}
+		}
+	]
 }
