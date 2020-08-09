@@ -1,12 +1,3 @@
 {
-	"extends": "gluons/ts",
-	"parserOptions": {
-		"project": "tsconfig.json"
-	},
-	"overrides": [
-		{
-			"files": "*.js",
-			"extends": "gluons/esnext"
-		}
-	]
+	"extends": "gluons/vue-ts"
 }
