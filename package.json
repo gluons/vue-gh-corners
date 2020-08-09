@@ -3,7 +3,7 @@
   "version": "3.0.1",
   "description": "GitHub Corners for Vue.",
   "main": "./dist/vue-github-corners.cjs.js",
-  "module": "./dist/vue-github-corners.esm.mjs",
+  "module": "./dist/vue-github-corners.es.js",
   "unpkg": "./dist/vue-github-corners.iife.min.js",
   "jsdelivr": "./dist/vue-github-corners.iife.min.js",
   "style": "./dist/vue-github-corners.iife.min.css",
