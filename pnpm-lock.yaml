@@ -20,7 +20,7 @@ devDependencies:
   cross-env: 7.0.2
   del-cli: 3.0.1
   eslint: 7.6.0
-  eslint-config-gluons: 5.0.4_8964a9b22f36e3bc08bba23126e95180
+  eslint-config-gluons: 6.0.4_8964a9b22f36e3bc08bba23126e95180
   jest: 26.2.2
   jest-config: 26.2.2
   parcel-bundler: 1.12.4
@@ -29,7 +29,7 @@ devDependencies:
   rollup: 2.23.1
   rollup-plugin-typescript2: 0.27.2_rollup@2.23.1+typescript@3.9.7
   rollup-plugin-vue: 5.1.9_14b256064cdd10125fc434f33327847b
-  tsconfig-gluons: 1.0.1_typescript@3.9.7
+  tsconfig-gluons: 1.1.0_typescript@3.9.7
   typescript: 3.9.7
   vue: 2.6.11
   vue-hot-reload-api: 2.3.4
@@ -2937,23 +2937,6 @@ packages:
       '@babel/core': ^7.0.0-0
     resolution:
       integrity: sha512-poPX9mZH/5CSanm50Q+1toVci6pv5KSRv/5TWCwtzQS5XEwn40BcCrgIeMFWP9CKKIniKXNxoIOnOq4VVlGXhg==
-  /babel-eslint/10.1.0_eslint@7.6.0:
-    dependencies:
-      '@babel/code-frame': 7.10.4
-      '@babel/parser': 7.11.2
-      '@babel/traverse': 7.11.0
-      '@babel/types': 7.11.0
-      eslint: 7.6.0
-      eslint-visitor-keys: 1.3.0
-      resolve: 1.17.0
-    dev: true
-    engines:
-      node: '>=6'
-    optional: true
-    peerDependencies:
-      eslint: '>= 4.12.1'
-    resolution:
-      integrity: sha512-ifWaTHQ0ce+448CYop8AdrQiBsGrnC+bMgfyKFdi6EsPLTAWG+QfyDeM6OH+FmWnKvEq5NnBMLvlBUPKQZoDSg==
   /babel-jest/26.2.2_@babel+core@7.11.0:
     dependencies:
       '@babel/core': 7.11.0
@@ -4729,7 +4712,7 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-6hTjO1NAWkHnDk3OqQ4YrCuwwmGHL9S3nPlzBOUG/R44rda3wLNrfvQ5fkSGjyhHFKM7ALPKcKGrwvCLe0lC7Q==
-  /eslint-config-gluons/5.0.4_8964a9b22f36e3bc08bba23126e95180:
+  /eslint-config-gluons/6.0.4_8964a9b22f36e3bc08bba23126e95180:
     dependencies:
       eslint: 7.6.0
       eslint-config-prettier: 6.11.0_eslint@7.6.0
@@ -4737,18 +4720,17 @@ packages:
       prettier: 2.0.5
     dev: true
     engines:
-      node: '>=8'
+      node: '>=10'
     optionalDependencies:
       '@typescript-eslint/eslint-plugin': 3.8.0_9195d7e59c976ef8295ee5e80b40ac89
       '@typescript-eslint/parser': 3.8.0_eslint@7.6.0+typescript@3.9.7
-      babel-eslint: 10.1.0_eslint@7.6.0
       eslint-plugin-vue: 6.2.2_eslint@7.6.0
     peerDependencies:
       eslint: '7'
       prettier: '2'
       typescript: '*'
     resolution:
-      integrity: sha512-p+8EHkhly1j2f5zVuZnEPVWVWEutAwBDxWNIt3+esB3veXNtz/8NTy12yBn9npfGycfwvWe1PloTOr7x6KLaDg==
+      integrity: sha512-CvUnIh/uY2wt5a/CIt+50YmbSVmv123VhzZPhZWPZ1/SoPXI4HhzCmSN0QqvhiDTl8UrtuzW0EJslyeEM9uYtA==
   /eslint-config-prettier/6.11.0_eslint@7.6.0:
     dependencies:
       eslint: 7.6.0
@@ -10087,14 +10069,14 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-C4+gOpvmxaSMKuEf9Qc134F1ZuOHVXKRbtEflf4NTtuuJDEIJ9p5PXsalL8SkeRw+qit1Mo+yuvMPAKwWg/1hA==
-  /tsconfig-gluons/1.0.1_typescript@3.9.7:
+  /tsconfig-gluons/1.1.0_typescript@3.9.7:
     dependencies:
       typescript: 3.9.7
     dev: true
     peerDependencies:
       typescript: '>=3.2'
     resolution:
-      integrity: sha512-M4VKQdyFhwMIBy/e0hrkiVfpa/Q0+k6xXa7/9+7BrBDQ54e8OKhRA5WV6ELbtaLCBjFM5lJewAs5EpoS5RysSg==
+      integrity: sha512-WembgDcnOKtI2FKe3zN9cpsDUIDMNPNuRE2DYWaPplZ3Jlu3CU7R3mnctB9JWlpWhdT6XsxlFPTL36w5ZbM1dw==
   /tsconfig/7.0.0:
     dependencies:
       '@types/strip-bom': 3.0.0
@@ -10745,7 +10727,7 @@ specifiers:
   cross-env: ^7.0.2
   del-cli: ^3.0.1
   eslint: ^7.6.0
-  eslint-config-gluons: ^5.0.4
+  eslint-config-gluons: ^6.0.4
   jest: ^26.2.2
   jest-config: ^26.2.2
   parcel-bundler: ^1.12.4
@@ -10754,7 +10736,7 @@ specifiers:
   rollup: ^2.23.1
   rollup-plugin-typescript2: ^0.27.2
   rollup-plugin-vue: '5'
-  tsconfig-gluons: ^1.0.1
+  tsconfig-gluons: ^1.1.0
   tslib: ^2.0.1
   typescript: ^3.9.7
   vue: 2.6.11
