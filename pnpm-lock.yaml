@@ -20,7 +20,7 @@ devDependencies:
   cross-env: 7.0.2
   del-cli: 3.0.1
   eslint: 7.6.0
-  eslint-config-gluons: 6.0.4_8964a9b22f36e3bc08bba23126e95180
+  eslint-config-gluons: 6.0.5_8964a9b22f36e3bc08bba23126e95180
   jest: 26.2.2
   jest-config: 26.2.2
   parcel-bundler: 1.12.4
@@ -4712,7 +4712,7 @@ packages:
       source-map: 0.6.1
     resolution:
       integrity: sha512-6hTjO1NAWkHnDk3OqQ4YrCuwwmGHL9S3nPlzBOUG/R44rda3wLNrfvQ5fkSGjyhHFKM7ALPKcKGrwvCLe0lC7Q==
-  /eslint-config-gluons/6.0.4_8964a9b22f36e3bc08bba23126e95180:
+  /eslint-config-gluons/6.0.5_8964a9b22f36e3bc08bba23126e95180:
     dependencies:
       eslint: 7.6.0
       eslint-config-prettier: 6.11.0_eslint@7.6.0
@@ -4730,7 +4730,7 @@ packages:
       prettier: '2'
       typescript: '*'
     resolution:
-      integrity: sha512-CvUnIh/uY2wt5a/CIt+50YmbSVmv123VhzZPhZWPZ1/SoPXI4HhzCmSN0QqvhiDTl8UrtuzW0EJslyeEM9uYtA==
+      integrity: sha512-bMl+5Dfyx6024OVHTIG0vEUyrRrAmssBxWR8uQT1D0JVbshiA7LHrx7CFvRpUJesq0p/XNn/FlU+HEozNDQL7Q==
   /eslint-config-prettier/6.11.0_eslint@7.6.0:
     dependencies:
       eslint: 7.6.0
@@ -10727,7 +10727,7 @@ specifiers:
   cross-env: ^7.0.2
   del-cli: ^3.0.1
   eslint: ^7.6.0
-  eslint-config-gluons: ^6.0.4
+  eslint-config-gluons: ^6.0.5
   jest: ^26.2.2
   jest-config: ^26.2.2
   parcel-bundler: ^1.12.4

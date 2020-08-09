@@ -13,9 +13,6 @@
 			"extends": "gluons/ts",
 			"parserOptions": {
 				"project": "tsconfig-eslint.json"
-			},
-			"rules": {
-				"@typescript-eslint/triple-slash-reference": "off"
 			}
 		}
 	]

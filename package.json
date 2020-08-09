@@ -63,7 +63,7 @@
     "cross-env": "^7.0.2",
     "del-cli": "^3.0.1",
     "eslint": "^7.6.0",
-    "eslint-config-gluons": "^6.0.4",
+    "eslint-config-gluons": "^6.0.5",
     "jest": "^26.2.2",
     "jest-config": "^26.2.2",
     "parcel-bundler": "^1.12.4",
