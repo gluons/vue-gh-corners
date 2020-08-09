@@ -1,16 +1,9 @@
 {
-	"extends": "tsconfig-gluons",
+	"extends": "tsconfig-gluons/browser",
 	"compilerOptions": {
 		"module": "ESNext",
-		"lib": [
-			"dom",
-			"ESNext"
-		],
-		"esModuleInterop": true,
 		"experimentalDecorators": true,
-		"outDir": "dist",
-		"sourceMap": true,
-		"declaration": true
+		"outDir": "dist"
 	},
 	"include": [
 		"src"
