@@ -1,6 +1,11 @@
 <template>
 	<div id="home">
-		<github-corners repo="gluons/vue-gh-corners" :bg-color="currentBgColor" :color="currentColor" :position="position"></github-corners>
+		<github-corners
+			repo="gluons/vue-gh-corners"
+			:bg-color="currentBgColor"
+			:color="currentColor"
+			:position="position"
+		></github-corners>
 		<div id="custom">
 			<button type="button" @click="swapPosition">Swap Position</button>
 			<button type="button" @click="swapColor">Swap Color</button>
@@ -13,45 +18,14 @@
 import Vue from 'vue';
 
 export default Vue.extend({
-	name: 'home',
+	name: 'Home',
 	data() {
 		return {
 			position: 'right',
 			isSwapColor: false,
-			colors: [
-				'#151513',
-				'red',
-				'green',
-				'blue'
-			],
+			colors: ['#151513', 'red', 'green', 'blue'],
 			currentColorIndex: 0
 		};
-	},
-	methods: {
-		updatePageBg() {
-			if (this.isSwapColor) {
-				const currentBgColor = this.colors[this.currentColorIndex];
-
-				document.body.style.setProperty('background-color', currentBgColor);
-			} else {
-				document.body.style.removeProperty('background-color');
-			}
-		},
-		swapPosition() {
-			this.position = this.position == 'right' ? 'left' : 'right';
-		},
-		swapColor() {
-			this.isSwapColor = !this.isSwapColor;
-			this.updatePageBg();
-		},
-		changeBgColor() {
-			if ((this.currentColorIndex + 1) >= this.colors.length) {
-				this.currentColorIndex = 0;
-			} else {
-				this.currentColorIndex++;
-			}
-			this.updatePageBg();
-		}
 	},
 	computed: {
 		currentBgColor() {
@@ -67,6 +41,35 @@ export default Vue.extend({
 			} else {
 				return this.colors[this.currentColorIndex];
 			}
+		}
+	},
+	methods: {
+		updatePageBg() {
+			if (this.isSwapColor) {
+				const currentBgColor = this.colors[this.currentColorIndex];
+
+				document.body.style.setProperty(
+					'background-color',
+					currentBgColor
+				);
+			} else {
+				document.body.style.removeProperty('background-color');
+			}
+		},
+		swapPosition() {
+			this.position = this.position == 'right' ? 'left' : 'right';
+		},
+		swapColor() {
+			this.isSwapColor = !this.isSwapColor;
+			this.updatePageBg();
+		},
+		changeBgColor() {
+			if (this.currentColorIndex + 1 >= this.colors.length) {
+				this.currentColorIndex = 0;
+			} else {
+				this.currentColorIndex++;
+			}
+			this.updatePageBg();
 		}
 	}
 });

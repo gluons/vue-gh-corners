@@ -1,11 +1,11 @@
-const { defaults } = require("jest-config");
+const { defaults } = require('jest-config');
 
 const { moduleFileExtensions } = defaults;
 
 module.exports = {
-	moduleFileExtensions: [...moduleFileExtensions, "vue"],
+	moduleFileExtensions: [...moduleFileExtensions, 'vue'],
 	transform: {
-		"^.+\\.ts$": "babel-jest",
-		"^.+\\.vue$": "vue-jest"
+		'^.+\\.ts$': 'babel-jest',
+		'^.+\\.vue$': 'vue-jest'
 	}
 };

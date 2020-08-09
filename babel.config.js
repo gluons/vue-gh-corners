@@ -3,23 +3,23 @@ module.exports = function (api) {
 
 	api.cache.never();
 
-	if (env === "test") {
+	if (env === 'test') {
 		return {
 			presets: [
 				[
-					"@babel/preset-env",
+					'@babel/preset-env',
 					{
 						targets: {
-							node: "current",
-						},
-					},
+							node: 'current'
+						}
+					}
 				],
-				"@babel/preset-typescript"
+				'@babel/preset-typescript'
 			]
 		};
 	}
 
 	return {
-		presets: ["bili/babel"]
+		presets: ['bili/babel']
 	};
 };
