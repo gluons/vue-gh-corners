@@ -70,7 +70,7 @@
     "postcss": "^7.0.32",
     "prettier": "^2.0.5",
     "rollup": "^2.23.1",
-    "rollup-plugin-typescript2": "^0.27.2",
+    "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-vue": "5",
     "tsconfig-gluons": "^1.1.0",
     "typescript": "^3.9.7",
