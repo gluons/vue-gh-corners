@@ -71,7 +71,7 @@
     "prettier": "^2.0.5",
     "rollup": "^2.23.1",
     "rollup-plugin-typescript2": "^0.27.2",
-    "rollup-plugin-vue": "5",
+    "rollup-plugin-vue": "6",
     "tsconfig-gluons": "^1.1.0",
     "typescript": "^3.9.7",
     "vue": "2.6.11",
